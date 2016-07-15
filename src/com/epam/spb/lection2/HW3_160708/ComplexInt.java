@@ -1,6 +1,22 @@
 package com.epam.spb.lection2.HW3_160708;
 
     public class ComplexInt {
+
+        public static void main(String[] args) {
+
+            ComplexInt complexint = new ComplexInt(1, 2);
+            complexint.complexViewInt();
+            complexint.addComplexInt(3, 4);
+            complexint.complexViewInt();
+            complexint.subComplexInt(5, 6);
+            complexint.complexViewInt();
+            complexint.multComplexInt(7, 8);
+            complexint.complexViewInt();
+            ComplexInt complexdouble = new ComplexInt(-9.0, 10.0);
+            complexdouble.complexViewDouble();
+
+        }
+
         private int a;
         private int b;
         private double d1;
